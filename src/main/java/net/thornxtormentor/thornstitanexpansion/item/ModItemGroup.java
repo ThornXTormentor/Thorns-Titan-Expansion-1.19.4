@@ -12,7 +12,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups(){
         TTEGroup = FabricItemGroup.builder(new Identifier(ThornsTitanExpansionMod.MOD_ID, "ttegroup"))
-                .displayName(Text.translatable("thornstitanexpansion.ttegroup"))
+                .displayName(Text.translatable("itemGroup.thornstitanexpansion.ttegroup"))
                 .icon(() -> new ItemStack(ModItems.RAW_PERIDOT)).build();
     }
 }

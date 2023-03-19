@@ -3,6 +3,7 @@ package net.thornxtormentor.thornstitanexpansion;
 import net.fabricmc.api.ModInitializer;
 import net.thornxtormentor.thornstitanexpansion.item.ModItemGroup;
 import net.thornxtormentor.thornstitanexpansion.item.ModItems;
+import net.thornxtormentor.thornstitanexpansion.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
