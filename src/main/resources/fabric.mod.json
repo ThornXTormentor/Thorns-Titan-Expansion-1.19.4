@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "thornstitanexpansion",
+  "version": "${version}",
+
+  "name": "Thorn's Titan Expansion",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "ThornXTormentor"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thornxtormentor.thornstitanexpansion.ThornsTitanExpansionMod"
+    ],
+    "client": [
+      "net.thornxtormentor.thornstitanexpansion.ThornsTitanExpansionClient"
+    ]
+  },
+  "mixins": [
+    "thornstitanexpansion.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
