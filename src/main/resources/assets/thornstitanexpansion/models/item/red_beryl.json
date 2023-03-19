@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "thorns_titan_expansion:item/red_beryl"
+    "layer0": "thornstitanexpansion:item/red_beryl"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "thorns_titan_expansion:block/red_beryl_block"
+      "model": "thornstitanexpansion:block/red_beryl_block"
     }
   }
 }

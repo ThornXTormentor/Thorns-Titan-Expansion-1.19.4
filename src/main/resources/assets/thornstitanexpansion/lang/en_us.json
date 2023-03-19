@@ -1,31 +1,31 @@
 {
-  "item.thorns_titan_expansion.peridot": "Peridot",
-  "item.thorns_titan_expansion.topaz": "Topaz",
-  "item.thorns_titan_expansion.aquamarine": "Aquamarine",
-  "item.thorns_titan_expansion.red_beryl": "Red Beryl",
+  "item.thornstitanexpansion.peridot": "Peridot",
+  "item.thornstitanexpansion.topaz": "Topaz",
+  "item.thornstitanexpansion.aquamarine": "Aquamarine",
+  "item.thornstitanexpansion.red_beryl": "Red Beryl",
 
-  "item.thorns_titan_expansion.raw_peridot": "Raw Peridot",
-  "item.thorns_titan_expansion.raw_topaz": "Raw Topaz",
-  "item.thorns_titan_expansion.raw_aquamarine": "Raw Aquamarine",
-  "item.thorns_titan_expansion.raw_red_beryl": "Raw Red Beryl",
+  "item.thornstitanexpansion.raw_peridot": "Raw Peridot",
+  "item.thornstitanexpansion.raw_topaz": "Raw Topaz",
+  "item.thornstitanexpansion.raw_aquamarine": "Raw Aquamarine",
+  "item.thornstitanexpansion.raw_red_beryl": "Raw Red Beryl",
 
-  "item.thorns_titan_expansion.peridot_sword": "Peridot Sword",
+  "item.thornstitanexpansion.peridot_sword": "Peridot Sword",
 
-  "block.thorns_titan_expansion.peridot_ore": "Peridot Ore",
-  "block.thorns_titan_expansion.deepslate_peridot_ore": "Deepslate Peridot Ore",
-  "block.thorns_titan_expansion.aquamarine_ore": "Aquamarine Ore",
-  "block.thorns_titan_expansion.deepslate_aquamarine_ore": "Deepslate Aquamarine Ore",
-  "block.thorns_titan_expansion.red_beryl_ore": "Red Beryl Ore",
-  "block.thorns_titan_expansion.deepslate_red_beryl_ore": "Deepslate Red Beryl Ore",
-  "block.thorns_titan_expansion.topaz_ore": "Topaz Ore",
-  "block.thorns_titan_expansion.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "block.thornstitanexpansion.peridot_ore": "Peridot Ore",
+  "block.thornstitanexpansion.deepslate_peridot_ore": "Deepslate Peridot Ore",
+  "block.thornstitanexpansion.aquamarine_ore": "Aquamarine Ore",
+  "block.thornstitanexpansion.deepslate_aquamarine_ore": "Deepslate Aquamarine Ore",
+  "block.thornstitanexpansion.red_beryl_ore": "Red Beryl Ore",
+  "block.thornstitanexpansion.deepslate_red_beryl_ore": "Deepslate Red Beryl Ore",
+  "block.thornstitanexpansion.topaz_ore": "Topaz Ore",
+  "block.thornstitanexpansion.deepslate_topaz_ore": "Deepslate Topaz Ore",
 
-  "block.thorns_titan_expansion.peridot_block": "Peridot Block",
-  "block.thorns_titan_expansion.topaz_block": "Topaz Block",
-  "block.thorns_titan_expansion.aquamarine_block": "Aquamarine Block",
-  "block.thorns_titan_expansion.red_beryl_block": "Red Beryl Block",
+  "block.thornstitanexpansion.peridot_block": "Peridot Block",
+  "block.thornstitanexpansion.topaz_block": "Topaz Block",
+  "block.thornstitanexpansion.aquamarine_block": "Aquamarine Block",
+  "block.thornstitanexpansion.red_beryl_block": "Red Beryl Block",
 
-  "block.thorns_titan_expansion.magic_workbench": "Magic Workbench",
+  "block.thornstitanexpansion.magic_workbench": "Magic Workbench",
 
-  "itemGroup.thorns_titan_expansion.ttegroup": "Thorn's Titan Expansion"
+  "itemGroup.thornstitanexpansion.ttegroup": "Thorn's Titan Expansion"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "thorns_titan_expansion:block/peridot_block"
+    "all": "thornstitanexpansion:block/peridot_block"
   }
 }

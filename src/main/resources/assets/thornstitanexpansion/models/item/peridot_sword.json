@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "thorns_titan_expansion:item/peridot_sword"
+    "layer0": "thornstitanexpansion:item/peridot_sword"
   }
 }

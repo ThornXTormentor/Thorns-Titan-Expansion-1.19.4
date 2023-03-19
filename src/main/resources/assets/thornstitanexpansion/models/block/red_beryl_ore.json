@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "thorns_titan_expansion:block/red_beryl_ore"
+    "all": "thornstitanexpansion:block/red_beryl_ore"
   }
 }

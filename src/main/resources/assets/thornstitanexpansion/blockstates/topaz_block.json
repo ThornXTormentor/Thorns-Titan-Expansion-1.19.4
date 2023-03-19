@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "thorns_titan_expansion:block/topaz_block"
+      "model": "thornstitanexpansion:block/topaz_block"
     }
   }
 }
