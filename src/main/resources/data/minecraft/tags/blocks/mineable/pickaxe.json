@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "thornstitanexpansion:peridot_block",
+    "thornstitanexpansion:peridot_ore",
+    "thornstitanexpansion:deepslate_peridot_ore",
+    "thornstitanexpansion:aquamarine_block",
+    "thornstitanexpansion:aquamarine_ore",
+    "thornstitanexpansion:deepslate_aquamarine_ore",
+    "thornstitanexpansion:red_beryl_block",
+    "thornstitanexpansion:red_beryl_ore",
+    "thornstitanexpansion:deepslate_red_beryl_ore",
+    "thornstitanexpansion:topaz_block",
+    "thornstitanexpansion:topaz_ore",
+    "thornstitanexpansion:deepslate_topaz_ore",
+    "thornstitanexpansion:magic_workbench"
+  ]
+}
