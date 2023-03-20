@@ -23,6 +23,9 @@
     ],
     "client": [
       "net.thornxtormentor.thornstitanexpansion.ThornsTitanExpansionClient"
+    ],
+    "fabric-datagen": [
+      "net.thornxtormentor.thornstitanexpansion.ThornsTitanExpansionDataGenerator"
     ]
   },
   "mixins": [
