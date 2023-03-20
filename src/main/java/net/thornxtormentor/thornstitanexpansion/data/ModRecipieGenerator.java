@@ -17,9 +17,7 @@ public class ModRecipieGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerSmelting(exporter, List.of(ModItems.RAW_PERIDOT),
-                RecipeCategory.MISC, ModItems.PERIDOT, 0.7f, 200, "ttegroup");
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS,
-                ModItems.PERIDOT, RecipeCategory.DECORATIONS, ModBlocks.PERIDOT_BLOCK);
+        //offerSmelting(exporter, List.of(ModItems.RAW_PERIDOT),RecipeCategory.MISC, ModItems.PERIDOT, 0.7f, 200, "ttegroup");
+        //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS,ModItems.PERIDOT, RecipeCategory.DECORATIONS, ModBlocks.PERIDOT_BLOCK);
     }
 }

@@ -13,9 +13,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.PERIDOT_BLOCK);
+        //addDrop(ModBlocks.PERIDOT_BLOCK);
 
-        oreDrops(ModBlocks.PERIDOT_ORE, ModItems.RAW_PERIDOT);
-        oreDrops(ModBlocks.DEEPSLATE_PERIDOT_ORE, ModItems.RAW_PERIDOT);
+        //oreDrops(ModBlocks.PERIDOT_ORE, ModItems.RAW_PERIDOT);
+        //oreDrops(ModBlocks.DEEPSLATE_PERIDOT_ORE, ModItems.RAW_PERIDOT);
     }
 }

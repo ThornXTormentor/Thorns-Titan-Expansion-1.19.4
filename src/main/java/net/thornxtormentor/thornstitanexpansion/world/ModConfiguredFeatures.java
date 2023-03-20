@@ -23,18 +23,35 @@ import net.thornxtormentor.thornstitanexpansion.block.ModBlocks;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> PERIDOT_ORE_KEY = registerKey("citrine_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PERIDOT_ORE_KEY = registerKey("peridot_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> AQUAMARINE_ORE_KEY = registerKey("aquamarine_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> RED_BERYL_ORE_KEY = registerKey("red_beryl_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TOPAZ_ORE_KEY = registerKey("topaz_ore");
 
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+        //Checks if stone/deepslate can be replaced
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        List<OreFeatureConfig.Target> overworldCitrineOres =
+        //List of Ores to replace, needed for each Ore
+        List<OreFeatureConfig.Target> overworldPeridotOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.PERIDOT_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_PERIDOT_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldAquamarineOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.AQUAMARINE_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_AQUAMARINE_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldRedBerylOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RED_BERYL_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_RED_BERYL_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldTopazOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.TOPAZ_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_TOPAZ_ORE.getDefaultState()));
 
-        register(context, PERIDOT_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldCitrineOres, 12));
+        register(context, PERIDOT_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPeridotOres, 6));
+        register(context, AQUAMARINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAquamarineOres, 6));
+        register(context, RED_BERYL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRedBerylOres, 6));
+        register(context, TOPAZ_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTopazOres, 6));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

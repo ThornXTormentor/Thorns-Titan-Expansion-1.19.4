@@ -16,14 +16,14 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PERIDOT_BLOCK);
-        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PERIDOT_ORE);
-        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPSLATE_PERIDOT_ORE);
+        //blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PERIDOT_BLOCK);
+        //blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PERIDOT_ORE);
+        //blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPSLATE_PERIDOT_ORE);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.PERIDOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_PERIDOT, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.PERIDOT, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.RAW_PERIDOT, Models.GENERATED);
     }
 }
