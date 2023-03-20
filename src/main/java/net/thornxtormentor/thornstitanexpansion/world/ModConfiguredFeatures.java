@@ -52,6 +52,8 @@ public class ModConfiguredFeatures {
         register(context, AQUAMARINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAquamarineOres, 6));
         register(context, RED_BERYL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRedBerylOres, 6));
         register(context, TOPAZ_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTopazOres, 6));
+
+        //GEODEs for future use
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
