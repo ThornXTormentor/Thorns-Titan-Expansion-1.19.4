@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "thornstitanexpansion:block/juicy_berry_bush"
+    },
+    "facing=south": {
+      "model": "thornstitanexpansion:block/juicy_berry_bush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thornstitanexpansion:block/juicy_berry_bush",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thornstitanexpansion:block/juicy_berry_bush",
+      "y": 90
+    }
+  }
+}

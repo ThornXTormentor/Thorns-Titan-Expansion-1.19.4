@@ -14,6 +14,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.thornxtormentor.thornstitanexpansion.ThornsTitanExpansionMod;
+import net.thornxtormentor.thornstitanexpansion.block.custom.JuicyBerryBushBlock;
 import net.thornxtormentor.thornstitanexpansion.item.ModItemGroup;
 
 public class ModBlocks {
@@ -33,6 +34,10 @@ public class ModBlocks {
     public static final Block TOPAZ_BLOCK = registerBlock("topaz_block", new Block(FabricBlockSettings.of(Material.AMETHYST).luminance(4).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block AQUAMARINE_BLOCK = registerBlock("aquamarine_block", new Block(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(4).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block RED_BERYL_BLOCK = registerBlock("red_beryl_block", new Block(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(4).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
+
+    //FRUIT BUSHES
+    public static final Block JUICY_BERRY_BUSH_BLOCK = registerBlock("juicy_berry_bush",
+            new JuicyBerryBushBlock(FabricBlockSettings.of(Material.LEAVES).strength(1f).nonOpaque()), ModItemGroup.TTEGroup);
 
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup){
         registerBlockItem(name, block, itemGroup);
