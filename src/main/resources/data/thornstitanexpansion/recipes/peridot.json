@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thornstitanexpansion:peridot_block"
+    }
+  ],
+  "result": {
+    "item": "thornstitanexpansion:peridot",
+    "count": 9
+  }
+}

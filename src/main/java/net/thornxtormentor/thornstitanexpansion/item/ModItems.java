@@ -22,7 +22,7 @@ public class ModItems {
     public static final Item AQUAMARINE = registerItem("aquamarine", new Item(new FabricItemSettings()));
     public static final Item RED_BERYL = registerItem("red_beryl", new Item(new FabricItemSettings()));
     public static final Item TOPAZ = registerItem("topaz", new Item(new FabricItemSettings()));
-    //Amethyst already implemented
+    public static final Item AMETHYST = registerItem("amethyst", new Item(new FabricItemSettings()));
 
     //TOOLS
     //public static final Item PERIDOT_SWORD = registerItem("peridot_sword", new SwordItem(ModToolMaterials.PERIDOT, 1, 2f, new FabricItemSettings().group(ModItemGroup.TTEGroup)));
@@ -42,6 +42,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.TTEGroup, AQUAMARINE);
         addToItemGroup(ModItemGroup.TTEGroup, RED_BERYL);
         addToItemGroup(ModItemGroup.TTEGroup, TOPAZ);
+        addToItemGroup(ModItemGroup.TTEGroup, AMETHYST);
     }
 
     public static void addToItemGroup(ItemGroup itemGroup, Item item){

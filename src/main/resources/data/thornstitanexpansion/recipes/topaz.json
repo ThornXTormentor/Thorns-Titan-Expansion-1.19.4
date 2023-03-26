@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thornstitanexpansion:topaz_block"
+    }
+  ],
+  "result": {
+    "item": "thornstitanexpansion:topaz",
+    "count": 9
+  }
+}

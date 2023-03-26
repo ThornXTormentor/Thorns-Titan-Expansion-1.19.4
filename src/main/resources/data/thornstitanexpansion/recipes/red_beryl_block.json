@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thornstitanexpansion:red_beryl"
+    }
+  },
+  "result": {
+    "item": "thornstitanexpansion:red_beryl_block"
+  }
+}
