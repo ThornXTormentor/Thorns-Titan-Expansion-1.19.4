@@ -1,19 +1,30 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "thornstitanexpansion:block/red_beryl_gem_light"
-    },
-    "facing=south": {
+    "facing=down": {
       "model": "thornstitanexpansion:block/red_beryl_gem_light",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "thornstitanexpansion:block/red_beryl_gem_light",
-      "y": 270
+      "x": 180
     },
     "facing=east": {
       "model": "thornstitanexpansion:block/red_beryl_gem_light",
+      "x": 90,
       "y": 90
+    },
+    "facing=north": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light"
+    },
+    "facing=west": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light",
+      "x": 90,
+      "y": 270
     }
   }
 }

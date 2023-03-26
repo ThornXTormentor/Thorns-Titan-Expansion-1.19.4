@@ -7,11 +7,19 @@
     "thornstitanexpansion:aquamarine_block",
     "thornstitanexpansion:aquamarine_ore",
     "thornstitanexpansion:deepslate_aquamarine_ore",
+    "thornstitanexpansion:amethyst_block",
+    "thornstitanexpansion:amethyst_ore",
+    "thornstitanexpansion:deepslate_amethyst_ore",
     "thornstitanexpansion:red_beryl_block",
     "thornstitanexpansion:red_beryl_ore",
     "thornstitanexpansion:deepslate_red_beryl_ore",
     "thornstitanexpansion:topaz_block",
     "thornstitanexpansion:topaz_ore",
-    "thornstitanexpansion:deepslate_topaz_ore"
+    "thornstitanexpansion:deepslate_topaz_ore",
+    "thornstitanexpansion:amethyst_gem_light",
+    "thornstitanexpansion:aquamarine_gem_light",
+    "thornstitanexpansion:peridot_gem_light",
+    "thornstitanexpansion:red_beryl_gem_light",
+    "thornstitanexpansion:topaz_gem_light"
   ]
 }
