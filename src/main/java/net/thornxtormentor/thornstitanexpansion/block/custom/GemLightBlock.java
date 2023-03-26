@@ -19,17 +19,27 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class GemLightBlock extends RodBlock {
-    public static final DirectionProperty FACING = Properties.FACING;
 
     public GemLightBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.UP));
     }
-    private static VoxelShape SHAPE = Block.createCuboidShape(4, 0, 4, 12, 12, 12);
+    private static VoxelShape Y_SHAPE = Block.createCuboidShape(4, 0, 4, 12, 12, 12);
+    private static VoxelShape Z_SHAPE = Block.createCuboidShape(4, 4, 0, 12, 12, 12);
+    private static VoxelShape X_SHAPE = Block.createCuboidShape(0, 4, 4, 12, 12, 12);
+    private static VoxelShape NEG_Y_SHAPE = Block.createCuboidShape(4, 4, 4, 12, 16, 12);
+    private static VoxelShape NEG_Z_SHAPE = Block.createCuboidShape(4, 4, 4, 12, 12, 16);
+    private static VoxelShape NEG_X_SHAPE = Block.createCuboidShape(4, 4, 4, 16, 12, 12);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return SHAPE;
+        if(state.get(FACING).getAxis() == Direction.Axis.Z && state.get(FACING).getDirection() == Direction.AxisDirection.POSITIVE) return Z_SHAPE;
+        if(state.get(FACING).getAxis() == Direction.Axis.X && state.get(FACING).getDirection() == Direction.AxisDirection.POSITIVE) return X_SHAPE;
+        if(state.get(FACING).getAxis() == Direction.Axis.Y && state.get(FACING).getDirection() == Direction.AxisDirection.POSITIVE) return Y_SHAPE;
+        if(state.get(FACING).getAxis() == Direction.Axis.Z && state.get(FACING).getDirection() == Direction.AxisDirection.NEGATIVE) return NEG_Z_SHAPE;
+        if(state.get(FACING).getAxis() == Direction.Axis.X && state.get(FACING).getDirection() == Direction.AxisDirection.NEGATIVE) return NEG_X_SHAPE;
+        if(state.get(FACING).getAxis() == Direction.Axis.Y && state.get(FACING).getDirection() == Direction.AxisDirection.NEGATIVE) return NEG_Y_SHAPE;
+        return Y_SHAPE;
     }
 
     @Override
