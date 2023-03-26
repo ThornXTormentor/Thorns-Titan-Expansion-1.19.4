@@ -15,5 +15,7 @@ public class ModOreGeneration {
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.RED_BERYL_ORE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.TOPAZ_ORE_PLACED_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.AMETHYST_ORE_PLACED_KEY);
     }
 }
