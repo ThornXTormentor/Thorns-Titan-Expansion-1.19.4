@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "peridot_gem_light",
-		"particle": "peridot_gem_light"
+		"0": "thornstitanexpansion:block/amethyst_gem_light",
+		"particle": "thornstitanexpansion:block/amethyst_gem_light"
 	},
 	"elements": [
 		{

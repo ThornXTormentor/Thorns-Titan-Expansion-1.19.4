@@ -15,12 +15,14 @@ public class ModItems {
     public static final Item RAW_AQUAMARINE = registerItem("raw_aquamarine", new Item(new FabricItemSettings()));
     public static final Item RAW_RED_BERYL = registerItem("raw_red_beryl", new Item(new FabricItemSettings()));
     public static final Item RAW_TOPAZ = registerItem("raw_topaz", new Item(new FabricItemSettings()));
+    public static final Item RAW_AMETHYST = registerItem("raw_topaz", new Item(new FabricItemSettings()));
 
     //GEMS
     public static final Item PERIDOT = registerItem("peridot", new Item(new FabricItemSettings()));
     public static final Item AQUAMARINE = registerItem("aquamarine", new Item(new FabricItemSettings()));
     public static final Item RED_BERYL = registerItem("red_beryl", new Item(new FabricItemSettings()));
     public static final Item TOPAZ = registerItem("topaz", new Item(new FabricItemSettings()));
+    //Amethyst already implemented
 
     //TOOLS
     //public static final Item PERIDOT_SWORD = registerItem("peridot_sword", new SwordItem(ModToolMaterials.PERIDOT, 1, 2f, new FabricItemSettings().group(ModItemGroup.TTEGroup)));
@@ -35,6 +37,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.TTEGroup, RAW_AQUAMARINE);
         addToItemGroup(ModItemGroup.TTEGroup, RAW_RED_BERYL);
         addToItemGroup(ModItemGroup.TTEGroup, RAW_TOPAZ);
+        addToItemGroup(ModItemGroup.TTEGroup, RAW_AMETHYST);
         addToItemGroup(ModItemGroup.TTEGroup, PERIDOT);
         addToItemGroup(ModItemGroup.TTEGroup, AQUAMARINE);
         addToItemGroup(ModItemGroup.TTEGroup, RED_BERYL);
