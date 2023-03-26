@@ -39,11 +39,11 @@ public class ModBlocks {
     public static final Block RED_BERYL_BLOCK = registerBlock("red_beryl_block", new Block(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(4).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block AMETHYST_BLOCK = registerBlock("amethyst_block", new Block(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(4).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     //GEM LIGHTS
-    public static final Block PERIDOT_GEM_LIGHT = registerBlock("peridot_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f)),ModItemGroup.TTEGroup);
-    public static final Block AQUAMARINE_GEM_LIGHT = registerBlock("aquamarine_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f)),ModItemGroup.TTEGroup);
-    public static final Block RED_BERYL_GEM_LIGHT = registerBlock("red_beryl_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f)),ModItemGroup.TTEGroup);
-    public static final Block TOPAZ_GEM_LIGHT = registerBlock("topaz_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f)),ModItemGroup.TTEGroup);
-    public static final Block AMETHYST_GEM_LIGHT = registerBlock("amethyst_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f)),ModItemGroup.TTEGroup);
+    public static final Block PERIDOT_GEM_LIGHT = registerBlock("peridot_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f).nonOpaque()),ModItemGroup.TTEGroup);
+    public static final Block AQUAMARINE_GEM_LIGHT = registerBlock("aquamarine_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f).nonOpaque()),ModItemGroup.TTEGroup);
+    public static final Block RED_BERYL_GEM_LIGHT = registerBlock("red_beryl_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f).nonOpaque()),ModItemGroup.TTEGroup);
+    public static final Block TOPAZ_GEM_LIGHT = registerBlock("topaz_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f).nonOpaque()),ModItemGroup.TTEGroup);
+    public static final Block AMETHYST_GEM_LIGHT = registerBlock("amethyst_gem_light", new GemLightBlock(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_CLUSTER).luminance(15).requiresTool().strength(1f).nonOpaque()),ModItemGroup.TTEGroup);
     //FRUIT BUSHES
     public static final Block JUICY_BERRY_BUSH_BLOCK = registerBlock("juicy_berry_bush",
             new JuicyBerryBushBlock(FabricBlockSettings.of(Material.LEAVES).strength(1f).nonOpaque()), ModItemGroup.TTEGroup);
