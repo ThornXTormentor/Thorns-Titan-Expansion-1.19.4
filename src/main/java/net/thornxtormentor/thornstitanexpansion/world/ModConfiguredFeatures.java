@@ -27,6 +27,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> AQUAMARINE_ORE_KEY = registerKey("aquamarine_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> RED_BERYL_ORE_KEY = registerKey("red_beryl_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> TOPAZ_ORE_KEY = registerKey("topaz_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> AMETHYST_ORE_KEY = registerKey("amethyst_ore");
 
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
@@ -47,13 +48,19 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> overworldTopazOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.TOPAZ_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_TOPAZ_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overworldAmethystOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.AMETHYST_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_AMETHYST_ORE.getDefaultState()));
 
         register(context, PERIDOT_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPeridotOres, 6));
         register(context, AQUAMARINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAquamarineOres, 6));
         register(context, RED_BERYL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRedBerylOres, 6));
         register(context, TOPAZ_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTopazOres, 6));
+        register(context, AMETHYST_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAmethystOres, 6));
 
         //GEODEs for future use
+
+        //Amethyst Geode already implemented
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
