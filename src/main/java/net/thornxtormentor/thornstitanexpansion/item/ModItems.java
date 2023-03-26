@@ -15,7 +15,7 @@ public class ModItems {
     public static final Item RAW_AQUAMARINE = registerItem("raw_aquamarine", new Item(new FabricItemSettings()));
     public static final Item RAW_RED_BERYL = registerItem("raw_red_beryl", new Item(new FabricItemSettings()));
     public static final Item RAW_TOPAZ = registerItem("raw_topaz", new Item(new FabricItemSettings()));
-    public static final Item RAW_AMETHYST = registerItem("raw_topaz", new Item(new FabricItemSettings()));
+    public static final Item RAW_AMETHYST = registerItem("raw_amethyst", new Item(new FabricItemSettings()));
 
     //GEMS
     public static final Item PERIDOT = registerItem("peridot", new Item(new FabricItemSettings()));
