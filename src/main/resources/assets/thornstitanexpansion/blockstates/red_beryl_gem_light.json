@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light"
+    },
+    "facing=south": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thornstitanexpansion:block/red_beryl_gem_light",
+      "y": 90
+    }
+  }
+}
