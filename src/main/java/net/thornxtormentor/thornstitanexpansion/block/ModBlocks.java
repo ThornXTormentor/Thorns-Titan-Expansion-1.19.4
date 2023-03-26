@@ -24,23 +24,26 @@ public class ModBlocks {
     public static final Block AQUAMARINE_ORE = registerBlock("aquamarine_ore", new Block(FabricBlockSettings.of(Material.STONE).luminance(1).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block RED_BERYL_ORE = registerBlock("red_beryl_ore", new Block(FabricBlockSettings.of(Material.STONE).luminance(1).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block TOPAZ_ORE = registerBlock("topaz_ore", new Block(FabricBlockSettings.of(Material.STONE).luminance(1).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
+    //DEEPSLATE ORE BLOCKS
     public static final Block DEEPSLATE_PERIDOT_ORE = registerBlock("deepslate_peridot_ore", new Block(FabricBlockSettings.of(Material.STONE).luminance(1).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block DEEPSLATE_AQUAMARINE_ORE = registerBlock("deepslate_aquamarine_ore", new Block(FabricBlockSettings.of(Material.STONE).luminance(1).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block DEEPSLATE_RED_BERYL_ORE = registerBlock("deepslate_red_beryl_ore", new Block(FabricBlockSettings.of(Material.STONE).luminance(1).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore", new Block(FabricBlockSettings.of(Material.STONE).luminance(1).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
-
     //GEM BLOCKS
     public static final Block PERIDOT_BLOCK = registerBlock("peridot_block", new Block(FabricBlockSettings.of(Material.AMETHYST).luminance(4).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block TOPAZ_BLOCK = registerBlock("topaz_block", new Block(FabricBlockSettings.of(Material.AMETHYST).luminance(4).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block AQUAMARINE_BLOCK = registerBlock("aquamarine_block", new Block(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(4).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
     public static final Block RED_BERYL_BLOCK = registerBlock("red_beryl_block", new Block(FabricBlockSettings.of(Material.AMETHYST).sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(4).requiresTool().strength(5f)), ModItemGroup.TTEGroup);
-
     //FRUIT BUSHES
     public static final Block JUICY_BERRY_BUSH_BLOCK = registerBlock("juicy_berry_bush",
             new JuicyBerryBushBlock(FabricBlockSettings.of(Material.LEAVES).strength(1f).nonOpaque()), ModItemGroup.TTEGroup);
-
+    //END OF BLOCKS
     private static Block registerBlock(String name, Block block, ItemGroup itemGroup){
         registerBlockItem(name, block, itemGroup);
+        return Registry.register(Registries.BLOCK, new Identifier(ThornsTitanExpansionMod.MOD_ID, name), block);
+    }
+    //For crops in overworld, etc...
+    private static Block registerBlockWithoutItem(String name, Block block){
         return Registry.register(Registries.BLOCK, new Identifier(ThornsTitanExpansionMod.MOD_ID, name), block);
     }
     private static Item registerBlockItem(String name, Block block, ItemGroup itemGroup){
