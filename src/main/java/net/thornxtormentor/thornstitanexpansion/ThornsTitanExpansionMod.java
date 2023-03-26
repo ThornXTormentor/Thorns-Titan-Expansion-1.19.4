@@ -1,6 +1,7 @@
 package net.thornxtormentor.thornstitanexpansion;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.thornxtormentor.thornstitanexpansion.item.ModItemGroup;
 import net.thornxtormentor.thornstitanexpansion.item.ModItems;
 import net.thornxtormentor.thornstitanexpansion.block.ModBlocks;
